@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(135deg, #2caabb, #ffffff);
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.emi-card {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 20px;
+  background: #fff;
+  transition: transform 0.3s;
+}
+
+.emi-card:hover {
+  transform: scale(1.02);
+}
+
+label {
+  font-weight: 500;
+}
+
+.result p {
+  font-size: 1.1rem;
+}
+
